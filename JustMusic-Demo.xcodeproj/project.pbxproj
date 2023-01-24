@@ -13,6 +13,11 @@
 		9BCD05B0297FAA1B00543776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD05AE297FAA1B00543776 /* Main.storyboard */; };
 		9BCD05B2297FAA1D00543776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD05B1297FAA1D00543776 /* Assets.xcassets */; };
 		9BCD05B5297FAA1D00543776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD05B3297FAA1D00543776 /* LaunchScreen.storyboard */; };
+		9BCD05C0297FAA5C00543776 /* Veaceslav Draganov - The Last Hero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD05BD297FAA5B00543776 /* Veaceslav Draganov - The Last Hero.mp3 */; };
+		9BCD05C1297FAA5C00543776 /* BalloonPlanet - Limitless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD05BE297FAA5C00543776 /* BalloonPlanet - Limitless.mp3 */; };
+		9BCD05C2297FAA5C00543776 /* SOURWAH - Its Going Down - No Lead Vocals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD05BF297FAA5C00543776 /* SOURWAH - Its Going Down - No Lead Vocals.mp3 */; };
+		9BCD05C4297FAAD600543776 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD05C3297FAAD600543776 /* Song.swift */; };
+		9BCD05C6297FAE9D00543776 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD05C5297FAE9D00543776 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		9BCD05B1297FAA1D00543776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BCD05B4297FAA1D00543776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BCD05B6297FAA1D00543776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCD05BD297FAA5B00543776 /* Veaceslav Draganov - The Last Hero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Veaceslav Draganov - The Last Hero.mp3"; sourceTree = "<group>"; };
+		9BCD05BE297FAA5C00543776 /* BalloonPlanet - Limitless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "BalloonPlanet - Limitless.mp3"; sourceTree = "<group>"; };
+		9BCD05BF297FAA5C00543776 /* SOURWAH - Its Going Down - No Lead Vocals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SOURWAH - Its Going Down - No Lead Vocals.mp3"; sourceTree = "<group>"; };
+		9BCD05C3297FAAD600543776 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		9BCD05C5297FAE9D00543776 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		9BCD05A7297FAA1B00543776 /* JustMusic-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				9BCD05BC297FAA4400543776 /* Songs */,
 				9BCD05A8297FAA1B00543776 /* AppDelegate.swift */,
 				9BCD05AA297FAA1B00543776 /* SceneDelegate.swift */,
 				9BCD05AC297FAA1B00543776 /* ViewController.swift */,
+				9BCD05C5297FAE9D00543776 /* PlayerViewController.swift */,
+				9BCD05C3297FAAD600543776 /* Song.swift */,
 				9BCD05AE297FAA1B00543776 /* Main.storyboard */,
 				9BCD05B1297FAA1D00543776 /* Assets.xcassets */,
 				9BCD05B3297FAA1D00543776 /* LaunchScreen.storyboard */,
 				9BCD05B6297FAA1D00543776 /* Info.plist */,
 			);
 			path = "JustMusic-Demo";
+			sourceTree = "<group>";
+		};
+		9BCD05BC297FAA4400543776 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				9BCD05BE297FAA5C00543776 /* BalloonPlanet - Limitless.mp3 */,
+				9BCD05BF297FAA5C00543776 /* SOURWAH - Its Going Down - No Lead Vocals.mp3 */,
+				9BCD05BD297FAA5B00543776 /* Veaceslav Draganov - The Last Hero.mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCD05C0297FAA5C00543776 /* Veaceslav Draganov - The Last Hero.mp3 in Resources */,
 				9BCD05B5297FAA1D00543776 /* LaunchScreen.storyboard in Resources */,
 				9BCD05B2297FAA1D00543776 /* Assets.xcassets in Resources */,
+				9BCD05C2297FAA5C00543776 /* SOURWAH - Its Going Down - No Lead Vocals.mp3 in Resources */,
+				9BCD05C1297FAA5C00543776 /* BalloonPlanet - Limitless.mp3 in Resources */,
 				9BCD05B0297FAA1B00543776 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BCD05AD297FAA1B00543776 /* ViewController.swift in Sources */,
+				9BCD05C4297FAAD600543776 /* Song.swift in Sources */,
 				9BCD05A9297FAA1B00543776 /* AppDelegate.swift in Sources */,
 				9BCD05AB297FAA1B00543776 /* SceneDelegate.swift in Sources */,
+				9BCD05C6297FAE9D00543776 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
